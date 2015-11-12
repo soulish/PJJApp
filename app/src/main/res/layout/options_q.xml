@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="500dp">
+
+    <TextView
+        android:id="@+id/options_q_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="#0099CC"
+        android:textSize="20sp"
+        android:text="@string/select_song_string"/>
+
+    <ListView
+        android:id="@+id/options_q_list"
+        android:layout_width="fill_parent"
+        android:layout_height="430dp"/>
+
+    <LinearLayout
+        style="?android:buttonBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#3E80B4"
+        android:orientation="horizontal" >
+
+        <Button
+            style="?android:buttonBarButtonStyle"
+            android:id="@+id/options_btn_cancel"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:background="#000000"
+            android:clickable="true"
+            android:text="@string/cancel_string"
+            android:textColor="#0099CC"
+            android:textStyle="bold" />
+
+        <Button
+            style="?android:buttonBarButtonStyle"
+            android:id="@+id/options_btn_ok"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="#000000"
+            android:clickable="true"
+            android:text="@string/ok_string"
+            android:textColor="#0099CC"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Phish Just Jams</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_end">Exit</string>
+    <string name="action_play">Play/Shuffle</string>
+    <string name="activity_query">Shuffle Options</string>
+    <string name="action_set_year_string">Select Year</string>
+    <string name="action_set_song_string">Select Song</string>
+    <string name="action_add_year_string">Add Year</string>
+    <string name="action_add_song_string">Add Song</string>
+    <string name="action_view_setlist">View Setlist</string>
+    <string name="action_set_next_song">Set As Next Song</string>
+    <string name="now_playing_string">Now Playing:</string>
+    <string name="list_status_string">Full: </string>
+    <string name="duration_text_string">13:45</string>
+    <string name="duration_pref_string">Select duration filter</string>
+    <string name="cancel_string">Cancel</string>
+    <string name="ok_string">OK</string>
+    <string name="select_song_string">Select song filter</string>
+    <string name="select_year_pref_string">Select year filter</string>
+    <string name="year_string">Year</string>
+    <string name="years_chosen_string">Years Chosen:</string>
+    <string name="tour_pref_string">Select tour filter</string>
+    <string name="tour_string">Tour</string>
+    <string name="tours_chosen_string">Tours Chosen:</string>
+    <string name="select_song_pref_string">Select song filter</string>
+    <string name="song_string">Song</string>
+    <string name="songs_chosen_string">Songs Chosen:</string>
+    <string name="select_duration_pref_string">Select duration filter</string>
+    <string name="duration_string">Duration</string>
+    <string name="durations_chosen_string">Durations Chosen:</string>
+    <string name="initial_duration_string">13:45</string>
+</resources>

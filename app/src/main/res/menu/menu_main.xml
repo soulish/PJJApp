@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/action_filters"
+        android:title="@string/action_filter"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:icon="@drawable/pjj_icon_small"/>
+
+    <item android:id="@+id/action_play"
+        android:title="@string/action_play"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:icon="@drawable/rand"/>
+
+    <item android:id="@+id/action_end"
+        android:icon="@drawable/end"
+        android:orderInCategory="3"
+        app:showAsAction="always"
+        android:title="@string/action_end" />
+
+</menu>
